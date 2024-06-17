@@ -12,7 +12,7 @@ O codigo provisiona os seguintes recursos:
 ## Custos:
 Custo mensal estimado do projeto (considerando 730 horas/mês):
 
-![Alt text](./img/image.png)
+![Alt text](./img/img.png)
 
 ## Uso:
 
