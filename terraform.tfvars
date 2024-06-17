@@ -2,6 +2,8 @@
 
 cluster_name    = "eks-airflow"
 cluster_version = 1.29
+
+### Cluster Variables
 bucket_name     = "dags-airflow"
 
 cluster_tags = {
