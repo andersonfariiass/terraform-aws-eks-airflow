@@ -1,10 +1,9 @@
-# terraform-aws-brlink-eks-airflow
+# terraform-aws-eks-airflow
 
 ## Introdução
 Esse repositorio é responsável por provisionar cluster EKS com o Apache Airflow com o objetivo de facilitar a realização de PoC sobre o Airflow.
 O codigo provisiona os seguintes recursos:
 
-- VPC
 - EKS Cluster
 - EKS Addons
 - EKS NodeGroups
@@ -20,8 +19,8 @@ Custo mensal estimado do projeto (considerando 730 horas/mês):
 Para executar este exemplo você precisa executar:
 
 ```bash
-git clone git@bitbucket.org:brlink-cloud/terraform-aws-brlink-eks-airflow.git
-cd terraform-aws-brlink-eks-airflow/
+git clone https://github.com/andersonfariiass/terraform-aws-eks-airflow.git
+cd terraform-aws-eks-airflow/
 ```
 
 Antes de fazer o deploy é preciso realizar um ajuste no arquivo providers.tf onde será configurado qual o profile do aws cli a ser usado para deploy.
