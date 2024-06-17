@@ -28,7 +28,7 @@ resource "kubernetes_ingress_v1" "airflow_ingress" {
   spec {
     ingress_class_name = "alb"
     rule {
-      #host = "brlinkairflow.webc2aws.online"
+      #host = "meuhost.com.br"
       http {
         path {
           backend {
