@@ -1,10 +1,10 @@
 ##########################################################################################################
-# Se o deploy for na conta PoC da Brlink esse bloco de codigo cria um DNS em uma zona existente da conta.#
+# Esse bloco de codigo cria um DNS em uma zona existente da conta.#
 ##########################################################################################################
 
 # resource "aws_route53_record" "www" {
 #   zone_id = data.aws_route53_zone.selected.zone_id
-#   name    = "brlink-poc-airflow.webc2aws.online"
+#   name    = "eks-poc-airflow.meudomain.online"
 #   type    = "CNAME"
 #   ttl     = 300
 #   records =  [data.aws_lb.load_balancer.dns_name]
