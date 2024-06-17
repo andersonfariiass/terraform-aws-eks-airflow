@@ -14,6 +14,7 @@ Custo mensal estimado do projeto (considerando 730 horas/mês):
 
 ![Alt text](./img/img.png)
 
+OBS: Estimativa de custos gerada usando a ferramenta  <a href="https://www.infracost.io/docs/">infracost.</a>
 ## Uso:
 
 Para executar este exemplo você precisa executar:
